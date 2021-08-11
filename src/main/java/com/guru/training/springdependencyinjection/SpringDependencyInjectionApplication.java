@@ -1,9 +1,9 @@
 package com.guru.training.springdependencyinjection;
 
 import com.guru.training.springdependencyinjection.controllers.MyController;
-import com.guru.training.springdependencyinjection.services.ConstructorInjectedController;
-import com.guru.training.springdependencyinjection.services.PropertyInjectedController;
-import com.guru.training.springdependencyinjection.services.SetterInjectedController;
+import com.guru.training.springdependencyinjection.controllers.ConstructorInjectedController;
+import com.guru.training.springdependencyinjection.controllers.PropertyInjectedController;
+import com.guru.training.springdependencyinjection.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
