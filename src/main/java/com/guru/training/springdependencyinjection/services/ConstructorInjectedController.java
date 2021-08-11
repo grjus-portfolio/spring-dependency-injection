@@ -1,5 +1,8 @@
 package com.guru.training.springdependencyinjection.services;
 
+import org.springframework.stereotype.Controller;
+
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
